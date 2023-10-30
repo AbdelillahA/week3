@@ -1,0 +1,19 @@
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    hr{
+        color:$firstcol;
+        width: 5vw;
+        size: 2vh;
+
+    }
+    p{
+        margin: 5vw;
+    }
+}
+ul{
+    li::marker{
+            color: $firstcol;
+        }
+}

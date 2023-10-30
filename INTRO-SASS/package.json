@@ -1,0 +1,12 @@
+{
+  "name": "intro-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "abdel": "sass --watch src/scss/app.scss:public/css/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

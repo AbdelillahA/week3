@@ -1,0 +1,31 @@
+.footer{
+    background-color: #363636;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .logo{
+        display: flex;
+        align-items: center;
+        .socials{
+            display: flex;
+            align-items: center;
+            margin-left: 2vw;
+            i{
+                color: white;
+                border-radius: 50%;
+                border: 1px white solid;
+                padding: 0.5vw;
+            }
+            p{
+                color: white;
+                text-transform: uppercase;
+                margin-left: 0.5vw;
+            }
+        }
+    }
+    p{
+        color: #636061;
+        
+    }
+}

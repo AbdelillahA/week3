@@ -1,0 +1,27 @@
+body{font-family: poppins;}
+    nav{
+    background-color: $firstcol;
+    color:#c13fba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    img{
+        width: 2vw;
+    }
+    textarea{
+        height: 3vh;
+        width: 10vw;
+        margin: 3vw;
+        color: #e4e0df;
+        border-radius: 0.2em;
+        
+    }
+    button{
+        background-color: #04e66a;
+        color: white;
+        border-radius: 0.2em;
+        border: none;
+
+    }
+}

@@ -1,0 +1,19 @@
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex; 
+        justify-content: space-between;
+        
+        li{ 
+            display: flex; 
+            margin: 2vw;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+

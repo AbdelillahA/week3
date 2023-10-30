@@ -1,0 +1,103 @@
+body {
+  font-family: poppins;
+}
+
+nav {
+  background-color: #aa00a3;
+  color: #c13fba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+}
+nav img {
+  width: 2vw;
+}
+nav textarea {
+  height: 3vh;
+  width: 10vw;
+  margin: 3vw;
+  color: #e4e0df;
+  border-radius: 0.2em;
+}
+nav button {
+  background-color: #04e66a;
+  color: white;
+  border-radius: 0.2em;
+  border: none;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-section ul {
+  display: flex;
+  justify-content: space-between;
+}
+.first-section ul li {
+  display: flex;
+  margin: 2vw;
+}
+.first-section ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section hr {
+  color: #aa00a3;
+  width: 5vw;
+  size: 2vh;
+}
+.second-section p {
+  margin: 5vw;
+}
+
+ul li::marker {
+  color: #aa00a3;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+}
+
+.footer {
+  background-color: #363636;
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+.footer .logo .socials {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+.footer .logo .socials i {
+  color: white;
+  border-radius: 50%;
+  border: 1px white solid;
+  padding: 0.5vw;
+}
+.footer .logo .socials p {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 0.5vw;
+}
+.footer p {
+  color: #636061;
+}
+
+/*# sourceMappingURL=style.css.map */
